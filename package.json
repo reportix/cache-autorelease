@@ -1,0 +1,31 @@
+{
+  "name": "cache-autorelease",
+  "version": "1.0.0",
+  "description": "Automatic cache packaging and release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reportix/cache-autorelease.git"
+  },
+  "author": "Federico Cavalieri",
+  "bugs": {
+    "url": "https://github.com/reportix/cache-autorelease/issues"
+  },
+  "homepage": "https://github.com/reportix/cache-autorelease#readme",
+  "devDependencies": {
+    "archiver": "^2.1.1",
+    "aws-sdk": "^2.213.1",
+    "fs-extra": "^5.0.0",
+    "git-rev-sync": "^1.9.1",
+    "gulp-util": "^3.0.8"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "git-root": "^1.0.0"
+  }
+}
